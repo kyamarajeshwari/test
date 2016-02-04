@@ -1,3 +1,4 @@
+//test
 trigger AccountAddressTrigger on Account (Before insert) {
 
 list<account>acc=trigger.new;
